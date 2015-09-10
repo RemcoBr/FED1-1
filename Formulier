@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>formulier</title>
+</head>
+<body>
+
+
+<h1>Aanmelden</h1>
+
+<p>Bent u geïnteresseerd in samenwerken met CMD Amsterdam? Dat kan! Tijdens de opleiding werken studenten aan projecten voor echte opdrachtgevers. Ook lopen de studenten stage, in het tweede en afstudeerjaar.</p>
+
+<p><em>CMD Amsterdam zoekt altijd naar positieve verbindingen met de creatieve stad Amsterdam.</em></p>
+
+<p>Voor het aanmelden van stageplekken of projecten kunt u onderstaand formulier invullen. Wij nemen zo nodig contact met u op nadat het formulier is verstuurd.
+Voor vragen of opmerkingen kunt u <a href="http://www.hva.nl/onderwijs/opleidingen/content/dmci/communication-and-multimedia-design/meer-informatie/contact/contact-en-locatie.html">contact</a> met ons op.</p>
+
+<form>
+<fieldset>
+<legend>Contactgegevens:</legend>
+ <label>Naam <input type="text"></label><br>
+  <label>Bedrijf<input type="text"></label><br>
+  <label>Adres<input type="text"></label><br>
+  <label>Postcode<input type="text"></label><br>
+  <label>Plaats<input type="text"></label><br>
+  <label>Telefoon<input type="tel"></label><br>
+  <label>Email<input type="email"></label><br><br>
+
+Ik wil mijn aanmelden:<br>
+ <label><input type="radio" name="aanmelden">voor een project</label><br>
+ <label><input type="radio" name="aanmelden">als stagebedrijf</label>
+</fieldset>
+
+<fieldset>
+<legend>Project</legend>
+<label>1. Titel<input type="text"></label><br>
+<label>2. Opdrachtomschrijving<input type="text"></label><br>
+<label>3. Doelgroepomschrijving<input type="text"></label><br>
+<label>4. Doelstelling/intentievanhetproject<input type="text"></label><br>
+<label>5. Looptijd<input type="text"></label><br>
+<label>6. Deadline<input type="date"></label><br><br>
+
+Geschikt voor<br>
+<label><input type="checkbox" name="Geschikt">1. eerstejaarsstudenten</label><br>
+<label><input type="checkbox" name="Geschikt">2. tweedejaarsstudenten</label><br>
+<label><input type="checkbox" name="Geschikt">3. derdejaarsstudenten</label><br>
+<label><input type="checkbox" name="Geschikt">4. afstudeerstudenten</label><br>
+<label><input type="checkbox" name="Geschikt">5. onbekend</label><br><br>
+
+<label>Opmerking<input type="text"></label>
+</fieldset>
+
+<fieldset>
+<Legend>Stage</Legend>
+Geschikt voor<br>
+<label><input type="radio" name="stage">1. tweedejaarsstudenten</label><br>
+<label><input type="radio" name="stage">2. afstudeerstudenten</label><br>
+<label><input type="radio" name="stage">3. onbekend</label><br><br>
+
+ 1. Hoe lang is de stage?<br>
+<label> <input type="radio" name="weken">-10 weken</label><br>
+<label> <input type="radio" name="weken">-20 weken</label><br>
+<label>2. Begindatum <input type="text"></label><br><br>
+
+
+Beschrijving werkzaamheden:<br>
+<label>1. Beschrijvingstagewerkzaamheden<input type="text"></label><br><br>
+
+Beschrijving stagebedrijf<br>
+<label>1. Bedrijfsnaam<input type="text"></label><br>
+<label>2. Adres<input type="text"></label><br>
+<label>3. postcode<input type="text"></label><br>
+<label>4. Plaats<input type="text"></label><br>
+<label>5. Sector<input type="text"></label><br>
+<label>6. CoreBusiness<input type="text"></label><br><br>
+
+<label>Opmerking<input type="text"></label>
+</fieldset>
+
+</form>
+
+</body>
+</html>
